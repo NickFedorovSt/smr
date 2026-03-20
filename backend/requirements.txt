@@ -1,0 +1,31 @@
+# FastAPI + ASGI
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Database
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.14.1
+
+# Pydantic
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# Reports
+openpyxl==3.1.5
+reportlab==4.2.5
+
+# File handling
+aiofiles==24.1.0
+python-multipart==0.0.20
+
+# MinIO
+minio==7.2.12
+
+# Testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1
+
+# Utilities
+python-dotenv==1.0.1
